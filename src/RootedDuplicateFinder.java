@@ -29,9 +29,11 @@ public class RootedDuplicateFinder {
                         folders.addLast(f);
                         folderNum ++;
                     } else try {
-                        FileInputStream fis = new FileInputStream(f);
-                        file2Id.put(f, DigestUtils.md5Hex(fis) + DigestUtils.sha1Hex(fis));
-                        fis.close();
+                        FileInputStream fis1 = new FileInputStream(f);
+                        FileInputStream fis2 = new FileInputStream(f);
+                        file2Id.put(f, DigestUtils.md5Hex(fis1) + DigestUtils.sha1Hex(fis2));
+                        fis1.close();
+                        fis2.close();
                         fileNum ++;
                         if (++n % 100 == 0) System.out.println(n + " files processed");
                     } catch (Exception e) {
