@@ -64,7 +64,6 @@ public class RootedDuplicateFinder {
                     || (d.getName().length() == keep.getName().length()) && d.getName().compareTo(keep.getName()) < 0) keep = d;
             if (keep == f) newDupSets.put(f, dupSets.get(f));
             else {
-                System.out.println(keep.getName());
                 newDupSets.put(keep, dupSets.get(f));
                 newDupSets.get(keep).add(f);
                 newDupSets.get(keep).remove(keep);
