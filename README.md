@@ -12,7 +12,7 @@ in your command shell, Java Runtime Environment (JRE) is required.
 
 Alternatively, you can build this project with IntelliJ IDEA.
 
-[Download this project via Baidu](https://pan.baidu.com/s/4i6pGwip) Pass: cpg7
+[Download this project via Baidu](https://pan.baidu.com/s/1t3d_6Wt0KzXDMDNBMnDdeQ) Pass: cpg7
 
 ## Warning
 Always backup your files before using this tool. This tool is not responsible for any consequence it might cause.
