@@ -1,5 +1,6 @@
 # DuplicateFinder
 This simple tool can find duplicate files under a root path and clean them or gather them in another folder.
+
 By default, the program will keep files with shortest or alphabetically smallest name.
 
 ## Usage
